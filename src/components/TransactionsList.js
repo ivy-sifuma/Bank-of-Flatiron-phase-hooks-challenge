@@ -20,6 +20,13 @@ function TransactionsList() {
           </th>
         </tr>
         {/* render a list of <Transaction> components here */}
+
+        {TransactionsList.map((transaction) => {
+          return (
+            
+          )
+        }
+        )}
       </tbody>
     </table>
   );
