@@ -29,9 +29,7 @@ function TransactionsList() {
             date={transaction.date}
             description={transaction.description}
             category={transaction.category}
-            amount={transaction.amount}
-
-            />
+            amount={transaction.amount} />
           )
         }
         )}
