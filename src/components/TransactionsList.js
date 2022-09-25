@@ -21,7 +21,7 @@ function TransactionsList() {
         </tr>
         {/* render a list of <Transaction> components here */}
 
-        {TransactionsList.map((transaction) => {
+        {TransactionsList((transaction) => {
           return (
 
             <Transaction
