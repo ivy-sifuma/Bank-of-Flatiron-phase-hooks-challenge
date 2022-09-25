@@ -6,7 +6,7 @@ function App() {
   useEffect(()=>{
 fetch("http://localhost:8001/transactions")
 .then(r=>r.json,{})
-.then(transaction=>console.log,{transac})
+.then(transaction=>console.log,{Transaction})
 })
   return (
     <div className="ui raised segment">
