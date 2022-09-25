@@ -1,8 +1,7 @@
 import React from "react";
 
 function Transaction() {
-  <th>AMOUNT</th>
-  {transactions.map(transaction=>{
+  {
   return (
     <tr>
        <td>{"transaction.date"}</td>
@@ -11,8 +10,8 @@ function Transaction() {
       <td>{"transaction.amount"}</td>
     </tr>
    
-  );
+  )
   }
-}
+
 
 export default Transaction;
