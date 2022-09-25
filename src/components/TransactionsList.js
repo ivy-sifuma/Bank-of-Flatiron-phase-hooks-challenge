@@ -21,19 +21,20 @@ function TransactionsList() {
         </tr>
         {/* render a list of <Transaction> components here */}
 
-        {TransactionsList((transaction) => {
-          return (
+        {transactions.map((transaction) => { 
+        return (
 
-            <Transaction
-            key={transaction.id}
-            date={transaction.date}
-            description={transaction.description}
-            category={transaction.category}
-            amount={transaction.amount} />
-          )
-        }
-        )}
-      </tbody>
+          <Transaction
+          key={transaction.id}
+          date={transaction.date}
+          description={transaction.description}
+          category={transaction.category}
+          amount={transaction.amount}
+
+          />
+        );
+         })}
+          </tbody>
     </table>
   );
 }
