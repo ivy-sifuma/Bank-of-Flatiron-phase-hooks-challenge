@@ -11,7 +11,7 @@ function Transaction() {
     </tr>
    
   )
-  }
+  }}
 
 
-export default Transaction;
+  export default Transaction;
