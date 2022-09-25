@@ -23,7 +23,15 @@ function TransactionsList() {
 
         {TransactionsList.map((transaction) => {
           return (
-            
+
+            <Transaction
+            key={transaction.id}
+            date={transaction.date}
+            description={transaction.description}
+            category={transaction.category}
+            amount={transaction.amount}
+
+            />
           )
         }
         )}
