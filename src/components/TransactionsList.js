@@ -3,7 +3,7 @@ import Transaction from "./Transaction";
 
 {/* render a list of <Transaction> components here */
 
-function TransactionsList() {
+function TransactionsList({transactions}) {
   return (
     <table className="ui celled striped padded table">
       <tbody>
