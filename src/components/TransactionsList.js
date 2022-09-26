@@ -22,14 +22,7 @@ function TransactionsList() {
           </th>
         </tr>
         
-       
-        
-       
-  
-            
-          );
-           
-            </tbody>
+        </tbody>
       </table>
     );
           }
