@@ -1,6 +1,7 @@
 import React from "react";
 
 function Transaction() {
+  //const { date, description, category, amount} = transaction;
   {
   return (
     <tr>

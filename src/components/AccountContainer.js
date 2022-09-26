@@ -26,7 +26,7 @@ function AccountContainer() {
       },
       body:JSON.stringify(newTransaction),
     };
-    fetch("http://localhost:8001/transactions", serverOptions)
+    fetch("http://localhost:8001/transactions" ,serverOptions)
     .then((res) => res.json())
     .then(newData => setTransactions((transactions) => [...transactions, newData]))
     .catch(error => console.log(error))
