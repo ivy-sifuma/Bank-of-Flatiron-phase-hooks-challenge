@@ -17,7 +17,7 @@ function AccountContainer() {
 
   function handleUpdateOnSubmitting(newTransaction) {
     //console.log(newTransaction);
-    setTransactions(transactions => [ ...transactions, newTransaction]);
+    setTransactions(transactions => [ ...transactions,newTransaction]);
 
     const serverOptions = {
       method: "POST" ,
